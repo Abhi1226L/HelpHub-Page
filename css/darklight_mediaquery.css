@@ -1,0 +1,62 @@
+/* Media query for dark and light mode */
+@media (prefers-color-scheme:dark){
+    #sidebar a{
+        color:white;
+    }
+
+    #logo_light{
+        display:none;
+    }
+    
+    #logo_dark{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #pic_of_logo_dark{
+        height:30px; 
+        width:150px;
+    }
+
+    .button{
+        border:1px solid white;
+    }
+
+    #sidebar a:hover{
+        color:gold;
+    }
+
+    #upper_bar{
+        background-color:#cfa3ea;
+    }
+}
+
+@media (prefers-color-scheme:light){
+    #logo_light{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #logo_dark{
+        display:none;
+    }
+
+    #pic_of_logo_light{
+        height:30px; 
+        width:150px;
+    }
+
+    .button{
+        border:1px solid black;
+    }
+
+    .menu_option:hover{
+        color:greenyellow;
+    }
+
+    #upper_bar{
+        background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    }
+}

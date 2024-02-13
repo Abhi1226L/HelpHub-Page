@@ -1,0 +1,138 @@
+@media screen and (max-width:1080px){
+    #hamburger{
+        opacity:1;
+    }
+
+    #sidebar{
+        flex-direction:column;
+        position:absolute;
+        top:17%;
+        left:-100%;
+        width:100%;
+        color:white;
+        padding-top:15px;
+        padding-bottom:15px;
+        row-gap:2rem;
+        transition:all 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+        font-weight:560;
+    }
+
+    .button{
+        width:96vw;
+    }
+    
+    .menu_option:hover{
+        color:rgb(168, 84, 98);
+    }
+
+    #click:checked ~ #sidebar{
+        left:0;
+    }
+    
+    #section1_part{
+        column-gap:6%;
+    }
+
+    #section1_left_theme{
+      font-size:2.1vw;
+    }
+
+}
+
+@media (prefers-color-scheme:dark) and (max-width:1080px){
+    #sidebar{
+        background-color:rgba(169, 162, 162,0.8);
+    }
+}
+
+@media (prefers-color-scheme:light) and (max-width:1080px){
+    #sidebar{
+        background-color:rgba(166, 166, 210,0.4);
+    }
+}
+
+@media screen and (max-width:893px){
+    #section1_part{
+        display:flex;
+        flex-direction:column-reverse;
+        justify-content:center;
+        align-items:center;
+        row-gap:2%;
+        max-width:100%;
+    }
+
+    #section1_right_image{
+        height:60%; 
+        width:100%;
+    }
+
+    #section1_left_theme{
+        font-size:5.5vmin;
+        text-align:center;
+    }
+
+    .section1_left_para{
+        width:96.1%;
+        margin-left:1.5%;
+        font-size:3.2vmin;
+        text-align:start;
+    }
+
+    .button_section1_left{
+        width:96.1%;
+        margin-left:1.5%;
+    }
+
+    #section2_part{
+       max-width:100%;
+    }    
+
+    #section2_companies{
+       justify-content:flex-start; 
+       flex-wrap:wrap;
+    }
+
+    #section2_para{
+      font-size:2.7vmin;
+    }   
+
+    .companies{
+        width:17%;
+    }
+
+    #section3_part{
+       max-width:100%;
+    }
+
+    #section3_headerpart{
+        font-size:4.1vw;
+    }
+
+ }
+
+@media screen and (max-width:778px){
+    #upper_bar{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:580px){
+    .companies{
+        width:24%;
+    }
+}
+
+@media screen and (max-width:430px){
+    .section1_left_para{
+        font-size:3.5vmin;
+    }
+}
+
+@media screen and (max-width:320px){
+    #section3_feature_button{
+       width:8rem;
+       height:2rem;
+    }   
+}
