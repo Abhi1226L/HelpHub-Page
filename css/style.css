@@ -136,7 +136,7 @@ section{
 
 /* Section2 */
 #section2{
-    margin-top:1rem;
+    margin-top:2rem;
 }
 
 #section2_part{
@@ -212,12 +212,13 @@ section{
 
 #section3_card_section{
     display:grid;
-    gap:14.7%;
+    gap:20%;
     grid-template-columns:repeat(3,1fr);
     grid-template-rows:repeat(2,1fr);
+    margin-top:2%;
 }
 
-#card_sorting{
+.card_box{
     /* border:1px solid black; */
     display:flex;
     flex-direction:column;
@@ -225,17 +226,22 @@ section{
     align-items:center;
 }
 
-#card_sorting_header{
+.card_header{
     font-weight:400;
 }
 
-#card_section_para{
+.card_section_para{
     text-align:center;
 }
 
-#learn_more_button{
+.learn_more_button{
     width:8rem;
     height:2rem;
+}
+
+.icons{
+    height:40px;
+    width:40px;
 }
 
 
