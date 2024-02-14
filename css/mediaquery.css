@@ -40,6 +40,11 @@
     .card_header{
         font-size:1.5rem;
     }
+
+    #section4_part{
+        margin-top:15%;
+        row-gap:9%;
+    }
     
 
 }
@@ -132,7 +137,43 @@
         grid-template-rows:repeat(3,1fr);
     }
 
- }
+    #section4_part{
+        margin-top:39vmin;
+    }
+
+    .professional_section,.professional_section_reverse{
+        flex-direction:column;
+    }
+
+    .professional_images{
+        max-width:57%;
+    }
+
+    .professional_image_section{
+        display:flex;
+        justify-content:center;
+    }
+
+    .professional_section_writing,.professional_section_writing_reverse{
+         text-align:center;
+    }
+
+    .professional_section,.professional_section_reverse{
+       row-gap:7%;
+    }
+
+    .professional_section_writing_h3{
+        font-size:3vmin;
+    }
+
+    .professional_section_writing_h2{
+        font-size:5vmin;
+    }
+
+    .professional_section_writing_para{
+        font-size:3vmin;
+    }
+}    
 
 @media screen and (max-width:778px){
     #upper_bar{
@@ -146,6 +187,11 @@
     .companies{
         width:24%;
     }
+
+    #section4_part{
+        margin-top:42vmin;
+    }
+
 }
 
 @media screen and (max-width:430px){
@@ -178,10 +224,14 @@
         height:2rem;
         font-size:13px;
     }
+
+    #section4_part{
+        margin-top:80vmin;
+    }
     
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:345px){
     #section3_feature_button{
        width:6.5rem;
        height:2rem;
@@ -193,4 +243,16 @@
         height:2rem;
         font-size:11px;
     }
+
+    #section4_part{
+        margin-top:90vmin;
+    }
+    
+}
+
+@media screen and (max-width:295px){
+    #section4_part{
+        margin-top:98vmin;
+    }
+    
 }

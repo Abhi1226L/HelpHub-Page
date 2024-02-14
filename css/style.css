@@ -244,6 +244,42 @@ section{
     width:40px;
 }
 
+/* Section4 */
+#section4_part{
+   margin-top:12%;
+   max-width:85%;
+   display:grid;
+   row-gap:5%;
+}
 
+.professional_section{
+    display:flex;
+}
+
+.professional_section_reverse{
+    display:flex;
+    flex-direction:row-reverse;
+    column-gap:6%;
+}
+
+.professional_images{
+    max-width:80%;
+    min-height:35%;
+}
+
+.professional_section_writing{
+    display:flex;
+    flex-direction: column;
+    align-self:center;
+    position:relative;
+    right:2%;
+}
+
+.professional_section_writing_reverse{
+    display:flex;
+    flex-direction: column;
+    align-self:center;
+    position:relative;
+}
 
 
