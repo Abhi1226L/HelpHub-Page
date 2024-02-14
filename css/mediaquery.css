@@ -225,8 +225,25 @@
         font-size:13px;
     }
 
+    
+    .professional_images{
+        max-width:99%;
+    }
+
     #section4_part{
         margin-top:80vmin;
+    }
+
+    .professional_section_writing_h3{
+        font-size:4vmin;
+    }
+
+    .professional_section_writing_h2{
+        font-size:6.5vmin;
+    }
+
+    .professional_section_writing_para{
+        font-size:4vmin;
     }
     
 }
