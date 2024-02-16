@@ -370,17 +370,18 @@
     .item_header{
         margin-bottom:16%;
         text-align:center;
-        font-size:20px;
+        font-size:18px;
     }
 
     .list{
         margin-bottom:4%;
         font-weight:lighter;
+        font-size:14px;
     }
    
     #footer3_part{
         min-height:13vw;
-        font-size:3.23vmin;
+        font-size:2.8vmin;
     }
 }
 
