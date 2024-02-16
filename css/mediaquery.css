@@ -261,9 +261,9 @@
         margin-top:5%;
     }
 
-    #footer2_part{
+    /* #footer2_part{
         margin-top:9%;
-    }    
+    }     */
 
     .list{
         font-weight:100;
@@ -363,11 +363,12 @@
         display:flex;
         flex-direction:column;
         row-gap:3rem;
+        margin-top:8%;
         margin-bottom:4%;
     }
 
     .item_header{
-        margin-bottom:4%;
+        margin-bottom:16%;
         text-align:center;
         font-size:20px;
     }
@@ -412,6 +413,14 @@
     #footer1_para_section{
         font-size:4.8vmin;
         margin-top:20%;
+    }
+
+    .item_header{
+       font-size:17px;
+    }
+
+    .list{
+      font-size:14px;
     }
     
 }

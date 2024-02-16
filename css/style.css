@@ -359,10 +359,11 @@ footer{
 }
 
 #footer2_part{
-    margin-top:4%;
     display:flex;
     justify-content:space-evenly;
+    align-items:center;
     min-height:50vh;
+    background-color:rgb(31, 30, 30);
 }
 
 .footer2_list{
