@@ -70,5 +70,13 @@
 
     #example_box{
         border:1px solid black;
-     }   
+    }
+    
+    .item_header{
+        color:white;
+    }
+        
+    .list a{
+       color: white;
+    }
 }
